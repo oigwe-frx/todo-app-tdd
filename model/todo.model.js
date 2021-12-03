@@ -1,3 +1,6 @@
+global.TextEncoder = require("util").TextEncoder;
+global.TextDecoder = require("util").TextDecoder;
+
 const mongoose = require('mongoose');
 
 const TodoSchema = new mongoose.Schema({

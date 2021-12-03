@@ -20,7 +20,9 @@
   "dependencies": {
     "express": "^4.17.1",
     "mongoose": "^6.0.14",
-    "nodemon": "^2.0.15"
+    "node-mocks-http": "^1.11.0",
+    "nodemon": "^2.0.15",
+    "util": "^0.12.4"
   },
   "devDependencies": {
     "jest": "^27.4.3"
