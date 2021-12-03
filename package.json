@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --watchAll"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   "homepage": "https://github.com/oigwe-frx/todo-app-tdd#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "mongoose": "^6.0.14",
     "nodemon": "^2.0.15"
   },
   "devDependencies": {
