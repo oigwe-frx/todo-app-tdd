@@ -5,5 +5,8 @@ exports.createTodo = (req, res, next) => {
     //res => what the client is receiving from the server
     //next => used for middleware
     
-    TodoModel.create(req.body);
+    const createdModel = TodoModel.create(req.body);
+    res.status(201).json(createdModel); //mocked response
+
+
 };
